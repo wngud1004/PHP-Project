@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Form Tag</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Form 만들기</h1>
+		<form action="form.php" method="get">
+		아이디 : <input type="text" name="id" value="abc"><br>
+		이름 : &nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="abc"><br>
+		비밀번호 : <input type="password" name="pwd"><br>
+		포인트 : <input type="number" name="point" min="1000" max="9000"><br>
+		가입일자 : <input type="date" name="regdate"><br>
+		이동통신 : <input type="radio" name="tel" checked>KT<br>
+				<input type="radio" name="tel">SKT<br>
+				<input type="radio" name="tel">LGT<br>
+		선호언어 : <input type="checkbox" name="lang[]">JAVA<br>
+				<input type="checkbox" name="lang[]">C++<br>
+				<input type="checkbox" name="lang[]">Python<br>
+		<input type="submit" value="OK">
+		<input type="reset" value="CANCEL">
+		</form>
+	</body>
+</html>
