@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>BMI Calculator</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>BMI 지수 계산</h1>
+	<form action="bmi.php" method="post" target="_blank">
+	<table>
+		<tr>
+			<td><label>이름</label></td>
+			<td><input type="text" name="uname"></td>
+		</tr>
+		<tr>
+			<td><label>키(cm)</label></td>
+			<td><input type="text" name="tall"></td>
+		</tr>
+		<tr>
+			<td><label>몸무게(kg)</label></td>
+			<td><input type="text" name="weight"></td>
+		</tr>
+		<tr>
+			<td><label>혈액형</label></td>
+			<td><fieldset><legend>Blood Type</legend>
+				<input type="radio" name="blood" value="A" checked>A<br>
+				<input type="radio" name="blood" value="B">B<br>
+				<input type="radio" name="blood" value="AB">AB<br>
+				<input type="radio" name="blood" value="O">O
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" value="계산하기">
+				<input type="reset" value="취소하기">
+			</td>
+		</tr>
+	</table>
+	</form>
+	
+</body>
+</html>
